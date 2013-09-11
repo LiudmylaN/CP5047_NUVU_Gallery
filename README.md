@@ -29,7 +29,7 @@ Source code dascription
 
 This code uses Vuforia SDK 2.6 for Android and is based
 on the Video Playback sample provided by Vuforia.
-SDK and Sapmples are available on 
+SDK and Samples are available on 
 https://developer.vuforia.com/resources/sdk/android
 
 ===================
