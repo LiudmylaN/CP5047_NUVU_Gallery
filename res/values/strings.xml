@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+which will detect the images in the gallery and bring them to life through the camera view of a suitable phone or tablet.<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">NuVu</string>
-    <string name="app_description">QCAR VideoPlayback Sample Application</string>
-    <string name="startup_description">This sample application shows how to play a video in AR mode.\n\nDevices that support video on texture can play the video directly on the image target. Other devices will play the video in full screen mode.</string>
+    <string name="app_description">Application for Media Art exhibition</string>
+    <string name="startup_description">This application detects the images in the gallery and bring them to life through the camera view of a suitable phone or tablet.</string>
     <string name="startup_button">Start</string>
     <string name="background_view_img">Background view image</string>
 </resources>

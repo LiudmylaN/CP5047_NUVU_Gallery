@@ -369,7 +369,7 @@ public class VideoPlayback extends Activity
         }
 
         mMovieName[STONES] = "VuforiaSizzleReel_1.mp4";
-        mMovieName[CHIPS] = "VuforiaSizzleReel_2.m4v";
+        mMovieName[CHIPS] = "VuforiaSizzleReel_2.mp4";
 
         mCurrentActivity = this;
 

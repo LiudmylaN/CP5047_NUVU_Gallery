@@ -38,7 +38,7 @@ public class QCARSampleGLView extends GLSurfaceView
 {
     /** Constructor. */
     public QCARSampleGLView(Context context)
-    {    	
+    {
         super(context);
     }
 

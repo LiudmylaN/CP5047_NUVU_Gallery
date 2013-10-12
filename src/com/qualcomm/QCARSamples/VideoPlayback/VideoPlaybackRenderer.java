@@ -247,7 +247,7 @@ public class VideoPlaybackRenderer implements GLSurfaceView.Renderer
         			//we start playing from the beginning
         			if (mNewTrack[i] && mVideoPlayerHelper[i].getStatus() == MEDIA_STATE.REACHED_END)
         			{
-        				mVideoPlayerHelper[i].play(false, 0);
+        				mVideoPlayerHelper[i].play(false, -1);// 0 to stop play at the end
         			}else{
         				mVideoPlayerHelper[i].play(false, -1);
         			}

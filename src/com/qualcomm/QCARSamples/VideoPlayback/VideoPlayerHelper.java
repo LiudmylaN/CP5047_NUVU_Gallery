@@ -465,15 +465,15 @@ public class VideoPlayerHelper implements OnPreparedListener,
                 {
                     try
                     {
-                        mMediaPlayer.pause();
+                        mMediaPlayer.seekTo(0); // pause(); to stop the play at the end
                     }
                     catch (Exception e)
                     {
                         mMediaPlayerLock.unlock();
                         DebugLog.LOGE("Could not seek to position");
                     }
-                }else
-                {
+                }//else      // uncomment to stop play at the end
+                //{
 	                // Then simply start playing
 	                try
 	                {
@@ -485,7 +485,7 @@ public class VideoPlayerHelper implements OnPreparedListener,
 	                    DebugLog.LOGE("Could not start playback");
 	                }
 	                mCurrentState = MEDIA_STATE.PLAYING;
-                }
+                //}
             mMediaPlayerLock.unlock();
 
             return true;
