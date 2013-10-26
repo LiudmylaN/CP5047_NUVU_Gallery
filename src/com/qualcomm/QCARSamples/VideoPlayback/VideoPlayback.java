@@ -368,8 +368,8 @@ public class VideoPlayback extends Activity
             mVideoPlayerHelper[i].setActivity(this);
         }
 
-        mMovieName[STONES] = "VuforiaSizzleReel_1.mp4";
-        mMovieName[CHIPS] = "VuforiaSizzleReel_2.mp4";
+        mMovieName[STONES] = "PosterAnimation.mp4";
+        mMovieName[CHIPS] = "PosterAnimation.mp4";
 
         mCurrentActivity = this;
 
@@ -547,8 +547,8 @@ public class VideoPlayback extends Activity
         }
 
         // Do not show the startup screen if we're returning from full screen:
-        //if (!mReturningFromFullScreen)
-           // showStartupScreen();
+        if (!mReturningFromFullScreen)
+            showStartupScreen();
 
         // Reload all the movies
         if (mRenderer != null)
@@ -838,16 +838,16 @@ public class VideoPlayback extends Activity
                                             LayoutParams.MATCH_PARENT));
 
                             // Setup the start screen:
-                            //setupStartScreen();
+                            setupStartScreen();
 
                             // Setup the start button:
-                            //setupStartButton();
+                            setupStartButton();
                             
                             // Start the camera:
                             updateApplicationStatus(APPSTATUS_CAMERA_RUNNING);
                             
                             // Show the startup screen
-                            //showStartupScreen();
+                            showStartupScreen();
             				
                         }
                 };
@@ -998,7 +998,7 @@ public class VideoPlayback extends Activity
         if (!mStartScreenShowing)
         {
             // Show the startup screen:
-            //showStartupScreen();
+            showStartupScreen();
 
             pauseAll(-1);
         }

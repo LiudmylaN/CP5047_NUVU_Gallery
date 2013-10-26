@@ -1,8 +1,9 @@
-which will detect the images in the gallery and bring them to life through the camera view of a suitable phone or tablet.<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">NuVu</string>
     <string name="app_description">Application for Media Art exhibition</string>
-    <string name="startup_description">This application detects the images in the gallery and bring them to life through the camera view of a suitable phone or tablet.</string>
+    <string name="startup_description_name">Welcome to NuVu art experience!</string>
+    <string name="startup_description">To use this app:\n\ 1. Find the picture you would like to see the video on. \n\ 2. Center the screen of your device on the image.\n\ 3. Video should start automatically as soon as image is recognized.</string>
     <string name="startup_button">Start</string>
     <string name="background_view_img">Background view image</string>
 </resources>
