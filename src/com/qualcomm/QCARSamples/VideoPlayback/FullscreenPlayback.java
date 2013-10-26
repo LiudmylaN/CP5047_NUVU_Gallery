@@ -51,6 +51,7 @@ import android.view.GestureDetector.OnDoubleTapListener;
 import android.view.GestureDetector.SimpleOnGestureListener;
 import android.widget.MediaController;
 import android.widget.VideoView;
+import au.edu.jcu.nuvu.R;
 
 public class FullscreenPlayback extends Activity implements
                                                     OnPreparedListener,

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.qualcomm.QCARSamples.VideoPlayback"
+      package="au.edu.jcu.nuvu"
       android:versionCode="200"
       android:versionName="2.6">
 
@@ -73,7 +73,7 @@
         android:description="@string/app_description"
         android:launchMode="singleTask"
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-        android:debuggable="true">
+        android:debuggable="false">
 
         <!--
           NOTE: The values in 'android:configChanges' ensure that Android will 
@@ -91,7 +91,7 @@
         -->
         <activity android:label="@string/app_name"
                   android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
-                  android:name=".VideoPlayback">
+                  android:name="com.qualcomm.QCARSamples.VideoPlayback.VideoPlayback">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -105,7 +105,7 @@
         -->
         <activity android:label="@string/app_name"
                   android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize"
-                  android:name=".FullscreenPlayback"
+                  android:name="com.qualcomm.QCARSamples.VideoPlayback.FullscreenPlayback"
                   android:exported="false">
 
             <intent-filter>

@@ -54,6 +54,7 @@ import android.view.GestureDetector.OnDoubleTapListener;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+import au.edu.jcu.nuvu.R;
 
 import com.qualcomm.QCAR.QCAR;
 import com.qualcomm.QCARSamples.VideoPlayback.VideoPlayerHelper.MEDIA_STATE;
